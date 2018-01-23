@@ -1,0 +1,4 @@
+<?php
+echo json_encode(array('A Rational Solution ', 'Burke and Hare', 'EXTRA MAN', 'How Do You Know ?', 'No Strings Attached', 'Shanghai Knights', 'The Trip', 'When A Man Comes Home', 'Cross', 'Damage', 'The Search of El Dorado', 'Hidden Camera', 'The Mechanic', 'Superman Return', 'Pirates Of The Caribbean: At World’s End', 'NYC: Tornado Terror', 'THE FIGHTER', 'Rabbit Hole', 'Money', 'Knockout', 'Illegal', 'Dancer In The Dark ',
+'Η ΙΔΑΝΙΚΗ ΛΥΣΗ','ΚΛΕΦΤΕΣ ΠΤΩΜΑΤΩΝ','ΣΥΝΟΔΟΣ ΚΥΡΙΩΝ','ΠΟΙΟΝ ΑΠΟ ΤΟΥΣ ΔΥΟ;','ΜΟΝΟ ΤΟ ΣΕΞ ΔΕΝ ΦΤΑΝΕΙ','ΟΙ ΙΠΠΟΤΕΣ ΤΗΣ ΣΑΝΓΚΑΗΣ','ΤΟ ΤΑΞΙΔΙ','ΕΝΑΣ ΑΝΔΡΑΣ ΕΠΙΣΤΡΕΦΕΙ','ΟΠΛΙΣΜΕΝΟΣ ΣΤΑΥΡΟΦΟΡΟΣ','ΑΓΩΝΑΣ ΧΩΡΙΣ ΕΛΕΟΣ','ΑΝΑΖΗΤΩΝΤΑΣ ΤΗΝ ΧΡΥΣΗ ΠΟΛΗ','ΔΙΕΘΝΗΣ ΣΥΝΩΜΟΣΙΑ','ΤΟ ΜΟΥΤΡΟ','ΣΟΥΠΕΡΜΑΝ Η ΕΠΙΣΤΡΟΦΉ ','ΟΙ ΠΕΙΡΑΤΈΣ ΤΗΣ ΚΑΡΑΪΒΙΚΉΣ: ΣΤΟ ΤΈΛΟΣ ΤΟΥ ΚΌΣΜΟΥ','ΤΡΟΜΟΣ ΣΤΗ ΝΕΑ ΥΟΡΚΗ','ΓΕΝΝΗΜΕΝΟΣ ΝΙΚΗΤΗΣ ','ΑΠΩΛΕΙΑ','ΕΚΒΙΑΣΜΟΣ','ΓΕΝΝΗΜΕΝΟΣ ΝΙΚΗΤΗΣ','ΠΑΡΑΝΟΜΗ','ΧΟΡΕΥΟΝΤΑΣ ΣΤΟ ΣΚΟΤΑΔΙ'));
+?>

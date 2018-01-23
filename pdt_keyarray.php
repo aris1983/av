@@ -1,0 +1,56 @@
+<?php
+$status  = $keyarray['status '];
+$mc_gross = $keyarray['mc_gross'];
+$protection_eligibility = $keyarray['protection_eligibility'];
+$address_status = $keyarray['address_status'];
+$payer_id = $keyarray['payer_id'];
+$tax = $keyarray['tax'];
+$address_street = $keyarray['address_street'];
+$payment_date = $keyarray['payment_date'];
+$payment_status = $keyarray['payment_status'];
+$charset = $keyarray['charset'];
+$address_zip = $keyarray['address_zip'];
+$first_name = $keyarray['first_name'];
+$option_selection1 = $keyarray['option_selection1'];
+$option_selection2 = $keyarray['option_selection2'];
+$address_country_code = $keyarray['address_country_code'];
+$address_name = $keyarray['address_name'];
+$custom = $keyarray['custom'];
+$payer_status = $keyarray['payer_status'];
+$business = $keyarray['business'];
+$address_country = $keyarray['address_country'];
+$address_city = $keyarray['address_city'];
+$quantity = $keyarray['quantity'];
+$payer_email = $keyarray['payer_email'];
+$option_name1 = $keyarray['option_name1'];
+$option_name2 = $keyarray['option_name2'];
+$txn_id = $keyarray['txn_id'];
+$payment_type = $keyarray['payment_type'];
+$btn_id = $keyarray['btn_id'];
+$last_name = $keyarray['last_name'];
+$address_state = $keyarray['address_state'];
+$receiver_email = $keyarray['receiver_email'];
+$shipping_discount = $keyarray['shipping_discount'];
+$insurance_amount = $keyarray['insurance_amount'];
+$receiver_id = $keyarray['receiver_id'];
+$pending_reason = $keyarray['pending_reason'];
+$txn_type = $keyarray['txn_type'];
+$item_name = $keyarray['item_name'];
+$discount = $keyarray['discount'];
+$mc_currency = $keyarray['mc_currency'];
+$item_number = $keyarray['item_number'];
+$residence_country = $keyarray['residence_country'];
+$receipt_id = $keyarray['receipt_id'];
+$shipping_method = $keyarray['shipping_method'];
+$handling_amount = $keyarray['handling_amount'];
+$transaction_subject = $keyarray['transaction_subject'];
+$payment_gross = $keyarray['payment_gross'];
+$shipping = $keyarray['shipping'];
+$string=$option_selection1;
+$s = explode("&",$string);
+foreach( $s as $k=>$v){
+  $v=explode("=",$v);
+  $a[$v[0]]=$v[1];
+}
+extract($a);
+?>
